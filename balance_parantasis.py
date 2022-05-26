@@ -1,6 +1,9 @@
 def check_pair(element1, element2):
     if element1 == '(' and element2 == ')':
         return True
+    if element1 == '[' and element2 == ']':
+        return True
+
 
 
 def check_balance(list):
